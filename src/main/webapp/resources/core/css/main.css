@@ -1,0 +1,234 @@
+.container-full {
+    margin: 10px auto;
+    width: 90%;
+}
+
+.nopadding {
+    padding: 5px !important;
+    margin: 0 !important;
+}
+
+/* Loader CSS*/
+.loader {
+    border: 8px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 8px solid #3498db;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loader-small {
+    width: 30px;
+    height: 30px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+
+}
+
+blockquote {
+    font-style: normal;
+    font-size: 14px !important;
+    font-weight:normal !important;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.black-font {
+    color: #000000;
+}
+
+.jira-in-progress {
+    background-image: none;
+    background-color: #3b7fc4;
+}
+
+.jira-open {
+    background-image: none;
+    background-color: #d04437;
+
+}
+
+.jira-wow {
+    background-image: none;
+    background-color: #f6c342;
+
+}
+
+.jira-resolved {
+    background-image: none;
+    background-color: #36C53D;
+}
+
+.jira-woc {
+    background-image: none;
+    background-color: #8eb021;
+}
+
+.jira-reopended {
+    background-image: none;
+    background-color: #654982;
+}
+
+.jira-closed {
+    background-image: none;
+    background-color: #21610B;
+}
+
+.fixed-panel {
+    min-height: 400px;
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+#login-box {
+    width: 450px;
+    padding: 20px;
+    margin: 100px auto;
+    background: #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border: 1px solid #000;
+}
+
+.externalClick {
+    display: block;
+    background-color: #CEE3F6;
+    /*position: relative;
+    float:right;
+    margin-right: 5px;*/
+    cursor: pointer;
+    padding: 5px;
+
+    border: #c0b9b0;
+    border-style: solid;
+    border-width: 1px;
+    width: 100%;
+    border-radius: 0.3125em; /* 5/16 */
+    -moz-border-radius: 0.3125em; /* 5/16 */
+    -webkit-border-radius: 0.3125em; /* 5/16 */
+
+}
+
+.search-box {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.externalClick:hover {
+    background-color: #2069b4;
+    color: white;
+    text-decoration: none;
+}
+
+.progress {
+    height: 12px !important;
+    font-size: 12px;
+}
+
+.foo {
+    border: 1px solid #848484;
+    border-radius: 5px;
+    margin-left: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    min-height: 75px;
+    max-height: 75px;
+
+}
+
+div.maximized {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0 none;
+    z-index: 9;
+}
+
+#resizeBtn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #000000;
+    color: white;
+    width: 75px;
+    height: auto;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.label-pill {
+    padding-right: .4em;
+    padding-left: .4em;
+    border-radius: 10rem;
+    font-size: 11px !important;
+
+}
+
+.reload-div {
+    cursor: pointer;
+}
+
+
+
+.accordion {
+    margin-bottom: 20px;
+
+
+}
+.accordion-group {
+    margin-bottom: 5px;
+    border: 1px solid #d2d2d2;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.accordion-heading {
+    border-bottom: 0;
+}
+.accordion-heading .accordion-toggle {
+    display: block;
+    padding: 8px 15px;
+}
+.accordion-toggle {
+    cursor: pointer;
+}
+.accordion-inner {
+    padding: 9px 15px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.inner-div {
+    overflow: scroll;
+}
+
+.gmail-div {
+}
+
+#dialog-form {
+    display: none;
+}
+

@@ -1,0 +1,10 @@
+<footer>
+    <p>
+    <script>
+        var d = new Date();
+        var thisYear = d.getFullYear();
+        document.writeln("<center>&copy; ProgressSoft "+thisYear+"</center>");
+    </script>
+
+    </p>
+</footer>
