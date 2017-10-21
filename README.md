@@ -12,12 +12,12 @@
      https://github.com/inshafmahath/ClusteredDataWarehouse/blob/master/src/main/resources/META-INF/persistence.xml
      
 
-<p>Provide the relevant connection params:</p>
+          Provide the relevant connection params:
 
-     <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/test" />
-     <property name="hibernate.connection.username" value="root" />
-     <property name="hibernate.connection.password" value="password" />
-    
+               <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/test" />
+               <property name="hibernate.connection.username" value="root" />
+               <property name="hibernate.connection.password" value="password" />
+
 
 <p>To run the project execute:</p>
 
